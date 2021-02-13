@@ -16,7 +16,7 @@
     </div>
 
     <div id="anim_img_box">
-        <img id="anim_img" src="anim/wakou_map(1).jpg" style="width: 100%;"/> <!--初期画像を入れておくよ。置き換わる部分だよ-->
+        <img id="anim_img" src="wakou_map(1).jpg" style="width: 100%;"/> <!--初期画像を入れておくよ。置き換わる部分だよ-->
     </div>
 
     <div id="anim_img_padding" class="padding">
@@ -36,7 +36,7 @@
             const _i = i;
             const img = new Image();
             tmp[_i] = null;
-            img.src = "anim/wakou_map("+_i+").jpg";
+            img.src = "wakou_map("+_i+").jpg";
             img.addEventListener("load",()=>{
                 tmp[_i] = img;
             })
